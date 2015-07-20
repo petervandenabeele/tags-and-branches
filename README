@@ -1,0 +1,12 @@
+This repo allows me to do some tests regarding tags and branches.
+
+The specific question is how to determine the latest tag that is
+deployed at a certain customer.
+
+There is a proposal to use branches, where the HEAD of the branch
+with the customer name would be the obvious way to find that out.
+
+But, if the code in the different branches is really the same,
+then using tags seems more correct (it makes it _impossible_
+to accidentially have a diverging code base in any of the
+customer branches).
